@@ -41,7 +41,7 @@
     position: relative;
     top: 3REM;
     background-image: linear-gradient(to right, #000000, #00000085, #ff660000, #ff660000),url(images/fondo.jpg);
-    height: 35rem;
+    height: 50rem;
     background-size: 100% 100%;
     width: 100%;
     text-align: left;
@@ -156,8 +156,9 @@
 
     .cuerpo3{
       position: relative;
-      top: 1rem;
-      background: linear-gradient(241deg, #5ffbea, #fff8f8,#fff8f8,#fff8f8,#5ffbea);
+      top: 2rem;
+      background-color: black;
+      
       height: 40rem;
       background-size: 100% 100%;
       width: 100%;
@@ -273,18 +274,36 @@ textarea {
 .container1 {
   
   
+     background-image: url("images/camionetafondo.JPG");
+     background-size: 100% 5rem;
     position: relative;
     width: 100%;
     min-height: 100vh;
     padding: 2rem;
-    background: linear-gradient(45deg, black, transparent,#43414147,black);
+    
     overflow: hidden;
-    display: flex;
+    display: ;
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
+}
+
+
+
+
+@media  (max-width: 480px){
+  .container1 {
+    background: linear-gradient(45deg, black, #5c5353);
+    
+  }
+}
+
+
+button.btn.btn-primary.btn-lg.informacion.\32 {
+  LEFT: 1REM;
+  TOP: -0.2REM;
 }
 
 .form {
@@ -306,6 +325,12 @@ textarea {
     
 }
 
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: white;
+}
+
+
+
 .circle {
     border-radius: 50%;
     background: linear-gradient(135deg, transparent 20%, #a7323254);
@@ -315,7 +340,7 @@ textarea {
 
 h3.title1 {
     padding: 0.2rem;
-    background-color:rgb(85 233 184 / 80%);
+    background-color:rgba(255, 0, 0, 0.8);
     color: white;
     font-weight: 500;
     font-size: 1.5rem;
@@ -569,7 +594,7 @@ textarea.input {
   font-size: 22px;
   margin-bottom: 23px;
   margin-right: 8px;
-  color:rgb(85 233 184 / 80%);
+  color:rgba(255, 0, 0, 0.8);
 }
 
 .big-circle {
@@ -797,7 +822,7 @@ textarea.input {
 
 .cuerpo3-descripcion1{
   padding: 2.5rem;
-  color: black;
+  color: rgb(255, 255, 255);
  font-family: "Lato", Sans-serif;
   height: 28rem;
   width: 10rem;
@@ -880,6 +905,13 @@ textarea.input {
 
 
 
+@media (max-width: 480px) {
+  .cuerpo {
+   height: 40rem;
+  }
+}
+
+
 @media (max-width: 768px) {
   .cuerpo2 {
    height: 67rem;
@@ -889,8 +921,9 @@ textarea.input {
 
 @media (max-width: 767px) {
   .cuerpo3 {
-    top: 2rem;
-    height: 118rem;
+    background: #02001e;
+    top: 4rem;
+    height: 130rem;
   }
 }
 
@@ -907,7 +940,7 @@ textarea.input {
 @media (max-width: 768px) {
   .cuerpo3-descripcion1 {
     position: relative;
-    top: -6rem;
+    top: -4rem;
    height: 35rem;}
   }
   
@@ -953,7 +986,7 @@ textarea.input {
 top: 1rem;
   position: relative;
   
-  background-image: url("images/fondo-planes.jpg");
+  background: linear-gradient(45deg, #01369f, #95acff);
   height: 50rem;
   background-size: 100% 100%;
   width: 100%;
@@ -993,7 +1026,7 @@ body {
 
 .plan {
   background: white;
-  border-radius: 24px;
+  border-radius: ;
   padding: 24px;
   color: #181059;
   font-family: "Inter", sans-serif;
@@ -1109,6 +1142,8 @@ body {
 /*     grid-template-columns: 1fr 1fr 1fr 1fr; */
      grid-template-columns: 1fr;
     gap: 10px;
+    position: relative;
+    left: -0.5rem;
  }
 /*  cal */
 
@@ -1138,7 +1173,7 @@ body {
   top: 4rem;
   color: white;
   font-weight: bold;
-  background: linear-gradient(45deg, #00000000, black, transparent);
+  
   font-size: 2rem;
 }
 
@@ -1157,7 +1192,7 @@ body {
   padding-top: 4rem;
   position: relative;
   top: 2rem;
-  background-image: url("images/fondo.jpg");
+ 
   height: 50rem;
   background-size: 100% 100%;
   width: 100%;
@@ -1172,7 +1207,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Ajusta el color y la opacidad según tus preferencias */
+  background: rgba(255, 255, 255, 0.5); /* Ajusta el color y la opacidad según tus preferencias */
 }
 
 
@@ -1278,25 +1313,32 @@ body {
 }
 
 
+.btn.btn-primary.btn-lg.informacion2{
+  left: -1rem;
+  top: -0.1rem;
+}
 
 
 
 
 span.titulo-descripcion2 {
-  padding: 1rem;
-  background: linear-gradient(45deg, #ff0e0c, #ff6a6a,#ff0e0c);
+  padding: 0.4rem;
+  background: linear-gradient(45deg, #ff0e0c, #b10000,#ff0e0c);
   font-size: 2rem;
   position: relative;
   text-align: center;
   display: flex;
   margin-bottom: 1rem;
+  top: 0.5rem;
   color: #ffffff;
+  left: -3rem;
 }
 
 
 
 
 span.titulo-descripcion3 {
+  top: -4rem;
   padding-bottom: 2rem;
   font-size: 1rem;
   position: relative;
@@ -1336,7 +1378,7 @@ span.titulo-descripcion3 {
   font-size: 1.5rem;
   color: white;
   padding: 0.5rem;
-  background: rgb(85 233 184 / 80%);
+  background: rgba(255, 0, 0, 0.8);
 }
 
 
@@ -1360,6 +1402,8 @@ span.titulo-descripcion3 {
 }
 
 .title-servicios {
+  left: -2rem;
+
   width: 15rem;
   text-align: left;
   position: relative;
@@ -1370,8 +1414,50 @@ span.titulo-descripcion3 {
   font-size: 1.5rem;
   line-height: 1;
   margin-bottom: 2rem;
-  background: linear-gradient(45deg, #ff0e0c, #fe0b0b5c);
+  background: linear-gradient(45deg, #ff0e0c, #4f0000);
 }
+
+.title-galeria {
+  left: 0;
+
+  width: 15rem;
+  text-align: left;
+  position: relative;
+  align-items: left;
+  padding: 1rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+  background: linear-gradient(45deg, #ff0e0c, #4f0000);
+}
+
+
+.title-contactanos {
+  left: -2rem;
+
+  width: 15rem;
+  text-align: left;
+  position: relative;
+  align-items: left;
+  padding: 1rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+  background: linear-gradient(45deg, #ff0e0c, #4f0000);
+}
+
+
+@media (max-width: 480px) {
+  .row.galeria {
+    position: relative;
+    left: -2.5rem;
+    top: 1rem;
+  }}
+
 
 
 
@@ -1383,7 +1469,7 @@ span.titulo-descripcion3 {
 
   @media (max-width: 480px) {
     .quote {  
-      font-size: 0.9rem;
+      font-size: 1rem;
       height: 2.5rem;
         width: 19rem;
     }}
@@ -1423,13 +1509,13 @@ span.titulo-descripcion3 {
   width:100%;
   margin:1% 0%;
   padding:0.6% 0%;
-  color:gray;
+  color:rgb(255, 255, 255);
   font-size:0.8em;
   }
   
   .footer .row a{
   text-decoration:none;
-  color:gray;
+  color:rgb(255, 255, 255);
   transition:0.5s;
   }
   
@@ -1483,7 +1569,7 @@ span.titulo-descripcion3 {
     position: relative;
     top: 0;
     background: linear-gradient(45deg, #5e5e5e,black ,#494949);
-    height: 25rem;
+    height: 30rem;
     background-size: 100% 100%;
     width: 100%;
     text-align: left;
